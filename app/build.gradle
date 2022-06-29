@@ -35,5 +35,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation androidDepend.appcompat
     implementation androidDepend.recyclerview
-    implementation project(path: ':pinlockview')
+//    implementation project(path: ':pinlockview')
+    implementation 'com.github.lqxue:PinLockView:0.0.1'
 }
