@@ -1,0 +1,3 @@
+include ':pinlockview'
+include ':app'
+rootProject.name = "PinLockView"
