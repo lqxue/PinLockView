@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="pinlockview_PinLockView">
-        <attr name="pinLength" format="integer" />
-        <attr name="keypadTextColor" format="color" />
-        <attr name="keypadTextSize" format="dimension" />
-        <attr name="keypadButtonSize" format="dimension" />
-        <attr name="keypadVerticalSpacing" format="dimension" />
-        <attr name="keypadHorizontalSpacing" format="dimension" />
-        <attr name="keypadButtonBackgroundDrawable" format="integer" />
-        <attr name="keypadDeleteButtonDrawable" format="integer" />
-        <attr name="keypadDeleteButtonSize" format="dimension" />
-        <attr name="keypadShowDeleteButton" format="boolean" />
-        <attr name="keypadDeleteButtonPressedColor" format="color" />
+        <attr name="pinlockview_pinLength" format="integer" />
+        <attr name="pinlockview_keypadTextColor" format="color" />
+        <attr name="pinlockview_keypadTextSize" format="dimension" />
+        <attr name="pinlockview_keypadButtonSize" format="dimension" />
+        <attr name="pinlockview_keypadVerticalSpacing" format="dimension" />
+        <attr name="pinlockview_keypadHorizontalSpacing" format="dimension" />
+        <attr name="pinlockview_keypadButtonBackgroundDrawable" format="integer" />
+        <attr name="pinlockview_keypadDeleteButtonDrawable" format="integer" />
+        <attr name="pinlockview_keypadDeleteButtonSize" format="dimension" />
+        <attr name="pinlockview_keypadShowDeleteButton" format="boolean" />
+        <attr name="pinlockview_keypadDeleteButtonPressedColor" format="color" />
 
-        <attr name="dotEmptyBackground" format="reference" />
-        <attr name="dotFilledBackground" format="reference" />
-        <attr name="dotDiameter" format="dimension" />
-        <attr name="dotSpacing" format="dimension" />
-        <attr name="indicatorType" format="enum">
+        <attr name="pinlockview_dotEmptyBackground" format="reference" />
+        <attr name="pinlockview_dotFilledBackground" format="reference" />
+        <attr name="pinlockview_dotDiameter" format="dimension" />
+        <attr name="pinlockview_dotSpacing" format="dimension" />
+        <attr name="pinlockview_indicatorType" format="enum">
             <enum name="fixed" value="0" />
             <enum name="fill" value="1" />
             <enum name="fillWithAnimation" value="2" />

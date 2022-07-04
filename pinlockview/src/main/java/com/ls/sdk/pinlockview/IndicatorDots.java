@@ -55,14 +55,14 @@ public class IndicatorDots extends LinearLayout {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.pinlockview_PinLockView);
 
         try {
-            mDotDiameter = (int) typedArray.getDimension(R.styleable.pinlockview_PinLockView_dotDiameter, ResourceUtils.getDimensionInPx(getContext(), R.dimen.pinlockview_default_dot_diameter));
-            mDotSpacing = (int) typedArray.getDimension(R.styleable.pinlockview_PinLockView_dotSpacing, ResourceUtils.getDimensionInPx(getContext(), R.dimen.pinlockview_default_dot_spacing));
-            mFillDrawable = typedArray.getResourceId(R.styleable.pinlockview_PinLockView_dotFilledBackground,
+            mDotDiameter = (int) typedArray.getDimension(R.styleable.pinlockview_PinLockView_pinlockview_dotDiameter, ResourceUtils.getDimensionInPx(getContext(), R.dimen.pinlockview_default_dot_diameter));
+            mDotSpacing = (int) typedArray.getDimension(R.styleable.pinlockview_PinLockView_pinlockview_dotSpacing, ResourceUtils.getDimensionInPx(getContext(), R.dimen.pinlockview_default_dot_spacing));
+            mFillDrawable = typedArray.getResourceId(R.styleable.pinlockview_PinLockView_pinlockview_dotFilledBackground,
                     R.drawable.pinlockview_dot_filled);
-            mEmptyDrawable = typedArray.getResourceId(R.styleable.pinlockview_PinLockView_dotEmptyBackground,
+            mEmptyDrawable = typedArray.getResourceId(R.styleable.pinlockview_PinLockView_pinlockview_dotEmptyBackground,
                     R.drawable.pinlockview_dot_empty);
-            mPinLength = typedArray.getInt(R.styleable.pinlockview_PinLockView_pinLength, DEFAULT_PIN_LENGTH);
-            mIndicatorType = typedArray.getInt(R.styleable.pinlockview_PinLockView_indicatorType,
+            mPinLength = typedArray.getInt(R.styleable.pinlockview_PinLockView_pinlockview_pinLength, DEFAULT_PIN_LENGTH);
+            mIndicatorType = typedArray.getInt(R.styleable.pinlockview_PinLockView_pinlockview_indicatorType,
                     IndicatorType.FIXED);
         } finally {
             typedArray.recycle();
