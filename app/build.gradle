@@ -36,5 +36,5 @@ dependencies {
     implementation androidDepend.appcompat
     implementation androidDepend.recyclerview
 //    implementation project(path: ':pinlockview')
-    implementation 'com.github.lqxue:PinLockView:0.0.1'
+    implementation 'com.github.lqxue:PinLockView:0.0.2'
 }

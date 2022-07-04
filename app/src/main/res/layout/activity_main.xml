@@ -12,8 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        app:keypadButtonSize="72dp"
-        app:keypadShowDeleteButton="true"
-        app:keypadTextColor="#000000"
-        app:keypadTextSize="18dp" />
+        app:pinlockview_keypadButtonSize="72dp"
+        app:pinlockview_keypadShowDeleteButton="true"
+        app:pinlockview_keypadTextColor="#000000"
+        app:pinlockview_keypadTextSize="18dp" />
 </FrameLayout>
